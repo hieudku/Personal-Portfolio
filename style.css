@@ -2,17 +2,30 @@ html {
     background-image: url("./img/white.jpg");
     background-size: cover; 
     background-attachment: fixed;
-    height: 100vh;
-    font-family: monospace;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 body {
     margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+h4, #intro {
+    padding-top: 2rem;
+    padding-left: 6rem;
+    margin: 0;
+}
+#intro {
+    margin-bottom: 4rem;
+    display: flex;
+    flex-wrap: wrap;
 }
 header {
-    padding-top: 2rem;
-    padding-left: 8rem;
-    font-size: 2rem;
-    height: 20rem;
+    position: sticky;
+    top:0;
+    font-size: 1.6rem;
+    height: 16rem;
     width: 100%;
     color:rgb(232, 222, 210);
     transition: 0.5s;
@@ -25,7 +38,7 @@ header:hover {
 footer {
     position: absolute;
     font-size: 1rem;
-    height: 4rem;
+    height: 5rem;
     background-color: rgba(23, 16, 16, 0.4);
     color: rgb(232, 222, 210);
     display: flex;
@@ -34,20 +47,32 @@ footer {
     width: 100%;
     bottom: 0;
 }
-#btn1 img, #btn2 img, #btn3 img,
-#btn4 img, #btn5 img, #btn6 img {
-    width: 6rem;
-    height: 6rem;
+.btn img {
+    width: 5rem;
+    height: 5rem;
+    cursor:pointer;
+   
 }
-#btn1, #btn2, #btn3, #btn4, #btn5, #btn6 {
+.btn{
     background-color: transparent;
     border: transparent;
 }
 #btns {
-    margin: 6rem;
+    margin-left: 5rem;
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2rem;
+}
+p {
+    font-size: 1.5rem;
+}
+.btn {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    gap: 2rem;
+}
+/* hidden contents */
+#A {
+    display: none;
+    transition: 2s;
 }
