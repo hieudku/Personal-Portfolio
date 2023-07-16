@@ -109,15 +109,18 @@ a img {
     padding: 2rem;
     background-color: rgba(53, 53, 53, 0.3);
     border-radius: 1.5rem;
-    box-shadow:rgb(54, 53, 54) 0.5rem 0.5rem 1rem ;
-    transition: 0.5s
+    
+    transition: 0.5s;
+
 }
 .text:hover {
     color: rgb(139, 45, 91);
     box-shadow:rgb(243, 99, 171) 0.5rem 0.5rem 1rem ;
     background-color: rgba(153, 104, 131, 0.4);
-    transition: 0.5s;
+    transition: 0.3s;
+    box-shadow: 0 0 1.5rem 0.5rem rgb(241, 170, 206), 0 0 1.5rem 0.5rem #ff00dd, 0 0 0.5rem 0.01rem #e646cb;
 }
+
 .profile-img {
     width: 10rem;
     height: 10rem;
