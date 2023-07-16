@@ -3,7 +3,7 @@ html {
     background-image: url("./img/meiying-ng-OrwkD-iWgqg-unsplash.jpg");
     background-size: cover; 
     background-attachment: fixed;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:'Times New Roman', Times, serif;
 }
 body {
     margin: 0;
@@ -23,17 +23,15 @@ body {
     flex-wrap: wrap;
 }
 header {
-    color: black;
-    font-size: larger;
+    color: rgb(95, 94, 95);
+    font-size: 2rem;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     position: relative;
     top:0;
-    font-size: 1.6rem;
     height: 16rem;
     width: 100%;
-    color:rgb(232, 222, 210);
     background-color: rgba(63, 46, 32, 0.4);
     box-shadow:rgb(122, 116, 112) 0.5rem 0.5rem 1rem ;
     transition: 0.5s;
@@ -113,14 +111,17 @@ a img:hover {
     transition: 0.3s;
 }
 .text {
+    color: rgb(95, 94, 95);
     padding: 2rem;
-    background-color: rgba(62, 75, 77, 0.5);
+    background-color: rgba(53, 53, 53, 0.3);
     border-radius: 1.5rem;
     box-shadow:rgb(54, 53, 54) 0.5rem 0.5rem 1rem ;
     transition: 0.5s
 }
 .text:hover {
+    color: rgb(139, 45, 91);
     box-shadow:rgb(243, 99, 171) 0.5rem 0.5rem 1rem ;
+    background-color: rgba(153, 104, 131, 0.4);
     transition: 0.5s;
 }
 .profile-img {
