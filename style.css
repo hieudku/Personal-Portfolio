@@ -26,7 +26,7 @@ header {
     color: rgb(95, 94, 95);
     font-size: 2rem;
     display: flex;
-    justify-content: space-evenly;
+    justify-content:space-around;
     align-items: center;
     position: relative;
     top:0;
@@ -43,9 +43,9 @@ header:hover {
 
 footer {
     position: relative;
-    font-size: 1rem;
+    font-size: 1.5rem;
     height: 5rem;
-    background-color: rgba(247, 142, 194, 0.4);
+    background-color: rgba(63, 46, 32, 0.4);
     color: rgb(232, 222, 210);
     display: flex;
     justify-content: center;
@@ -69,7 +69,7 @@ footer {
     border: transparent;
     align-items: center;
     gap: 2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 6rem;
 }
 #btns {
     margin-left: 5rem;
@@ -94,21 +94,15 @@ ul {
     display: flex;
     flex-direction: row;
     list-style: none;
-    gap: 6rem;
+    gap: 2rem;
 }
 a img {
-    position: absolute;
-    width: 2rem;
-    height: 2rem;
+    position: relative;
+    width: 3rem;
+    height: 3rem;
     cursor:pointer;
     transition: 0.2s;
    
-}
-a img:hover {
-    width: 5rem;
-    height: 5rem;
-    cursor:pointer;
-    transition: 0.3s;
 }
 .text {
     color: rgb(95, 94, 95);
@@ -135,4 +129,12 @@ a img:hover {
 .profile-img:hover {
     box-shadow:rgb(243, 99, 171) 0.5rem 0.5rem 1rem ;
     transition: 0.5s;
+}
+.info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#intro {
+    flex-wrap: nowrap;
 }
