@@ -1,10 +1,10 @@
 html {
     color:black;
-    background-image: url("./img/pastel-pink-vignette-concrete-textured-background.jpg");
     background-size: cover; 
     background-attachment: fixed;
     font-family:Arial, Helvetica, sans-serif;
     height: 100vh;
+    background-color: rgb(255, 240, 247);
 }
 body {
     font-size: 12px;
@@ -35,8 +35,8 @@ header {
     top:0;
     height: 6.5rem;
     width:fit-content;
-    background-color: rgba(194, 155, 123);
-    box-shadow:rgb(54, 53, 54) 0.5rem 0.5rem 1rem ;
+    background-color: rgb(46, 40, 35);
+
     transition: 0.5s;
     min-width: 100%;
     width: 100%;
@@ -69,7 +69,7 @@ footer {
     cursor:pointer;
     max-width: 100%;
 }
-.btn{
+.btn {
     color: rgb(232, 222, 210);
     transition: 0.5s;
     font-size: 1.5rem;
@@ -78,12 +78,12 @@ footer {
     border: transparent;
     align-items: center;
     gap: 2rem;
-    margin-bottom: 6rem;
     width: 90%;
     border-radius: 2rem;
     display: flex;
     flex-direction: column;
-    max-width: 45rem;;
+    max-width: 45rem;
+    margin-top: 5rem;
 }
 
 #btns {
@@ -127,6 +127,7 @@ a img {
    
 }
 .text {
+    line-height: 2;
     color: rgb(83, 81, 79);
     padding: 2rem;
     padding-bottom: 4rem;
@@ -173,9 +174,8 @@ a:hover {
 }
 hr {
     border: 0;
-    box-shadow:rgb(54, 53, 54) 0.5rem 0.5rem 1rem;
-    height: 0.3rem;
-    background-color: rgba(194, 155, 123, 0.7);
+    height: 1px;
+    background-color: rgb(46, 40, 35);
     align-self: center;
     color: black;
     width: 35%;
@@ -202,4 +202,13 @@ hr {
 h4 {
     text-align: center;
     margin: 0;
+}
+h1 {
+    font-size: 6rem;
+    text-align: center;
+    margin-top: 18rem;
+    padding: 0;
+}
+#top {
+    color:black;
 }
