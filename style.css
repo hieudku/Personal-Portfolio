@@ -1,14 +1,15 @@
 html {
     color:black;
-    background-image: url("./img/annie-spratt-V1lmayjfBJc-unsplash.jpg");
+    background-image: url("./img/pastel-pink-vignette-concrete-textured-background.jpg");
     background-size: cover; 
     background-attachment: fixed;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family:Arial, Helvetica, sans-serif;
     height: 100vh;
 }
 body {
     font-size: 12px;
     margin: 0;
+    padding: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -48,18 +49,18 @@ header:hover {
 footer {
     position:relative;
     font-size: 1.5rem;
-    height: 10rem;
-    background-color: rgba(63, 46, 32, 0.4);
-    color: rgb(232, 222, 210);
+    height: fit-content;
+    background-color: #f2f2f2;
+    color: rgb(83, 81, 79);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: fit-content 100%;
     bottom:0;
-    min-width: 100%;
-    padding: 2rem;
+    width: 100%;
     gap: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 .btn img {
     margin-top: 4rem;
@@ -101,8 +102,9 @@ p {
 }
 /* hidden contents */
 ul {
+    margin: 0;
+    padding: 0;
     position:relative;
-    padding-right: 5rem;
     display: flex;
     flex-direction: row;
     list-style: none;
@@ -111,6 +113,7 @@ ul {
 }
 .link {
     gap: 0.5rem;
+    padding: 1.5rem;
 }
 #header-link {
     gap: 1rem;
@@ -129,11 +132,12 @@ a img {
     padding-bottom: 4rem;
     border-radius: 1.5rem;
     transition: 0.5s;
-    text-align: center;
+    text-align: left;
     background-color: transparent;
 }
 
 .profile-img {
+    margin-right: 1rem;
     position: relative;
     top: 3.5rem;
     width: 12rem;
@@ -174,7 +178,7 @@ hr {
     background-color: rgba(194, 155, 123, 0.7);
     align-self: center;
     color: black;
-    width: 25%;
+    width: 35%;
 }
 #boxes {
     height: auto;
@@ -194,4 +198,8 @@ hr {
     min-width: 5rem;
     height: 10rem;
     min-height: 3rem;
+}
+h4 {
+    text-align: center;
+    margin: 0;
 }
